@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+.heder{
+    width: 100%;
+    background-color: #29ACEC;
+    height: 3rem;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    margin: 0;
+}
+
+.header__title{
+    color: #EBEDEF;
+    font-weight:bolder;
+    font-family: 'Roboto', sans-serif;
+}

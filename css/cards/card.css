@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+.cards{
+    width: 100%;
+    display: flex;
+    height: auto;
+}
+
+.card{
+    background-color: #7DCBF1;
+    margin-top : 1rem;
+    margin-left : 2rem;
+    margin-right : 2rem;
+    margin-bottom : 1rem;
+    padding: 1rem;
+    width: 40%;
+    height: 25rem;
+    border-radius: 2rem;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.card__header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.card__header-icon{
+    align-self: self-start;
+    font-size: 2rem;
+}
+
+.card__header-title{
+    font-weight:bolder;
+    font-size: 1.5rem;
+}
+
+
+.card__des-item{
+    background-color: #1A475D;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #EBEDEF;
+}
+
+.card__ver{
+    background-color: #1A475D;
+    border-radius: 2rem;
+    color: #EBEDEF;
+    border: none;
+    height: 2rem;
+    padding: 0.5rem;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    transition: transform 1.5s;
+}
+
+.card__ver:hover{
+    transform: scale(1.2);
+}
